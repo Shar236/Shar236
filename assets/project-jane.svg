@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396 180" width="100%" height="180">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .text-title {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 19px;
+        fill: #ffffff;
+        letter-spacing: -0.02em;
+      }
+      
+      .text-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 12px;
+        fill: #696E79;
+        line-height: 1.5;
+      }
+      
+      .text-mono {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        fill: #00C9FF;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+
+      .text-tag {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8.5px;
+        fill: #A5B4FC;
+        font-weight: 600;
+      }
+
+      .invoice-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 7.5px;
+        fill: #525866;
+      }
+
+      .invoice-val {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        fill: #10B981;
+        font-weight: 700;
+      }
+    </style>
+
+    <radialGradient id="bgGlow" cx="80%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="rgba(127, 0, 255, 0.12)" />
+      <stop offset="60%" stop-color="rgba(127, 0, 255, 0.01)" />
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+    </radialGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)" />
+      <stop offset="50%" stop-color="rgba(255, 255, 255, 0.02)" />
+      <stop offset="100%" stop-color="rgba(127, 0, 255, 0.15)" />
+    </linearGradient>
+
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M 18 0 L 0 0 0 18" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="396" height="180" rx="16" fill="#070709" />
+  <rect width="396" height="180" rx="16" fill="url(#grid)" />
+  <circle cx="300" cy="120" r="100" fill="url(#bgGlow)" />
+  <rect x="0.5" y="0.5" width="395" height="179" rx="15.5" fill="none" stroke="url(#borderGradient)" stroke-width="1" />
+
+  <!-- Content -->
+  <g transform="translate(24, 0)">
+    <text x="0" y="38" class="text-mono">PROJECT // 01</text>
+    <text x="0" y="62" class="text-title">Jane-Trade</text>
+    <text x="0" y="85" class="text-desc">Blockchain invoice financing engine.</text>
+    <text x="0" y="101" class="text-desc">MSMEs unlock capital via smart ledger.</text>
+
+    <!-- Stack Tag -->
+    <g transform="translate(0, 130)">
+      <rect width="180" height="20" rx="4" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+      <text x="10" y="13" class="text-tag">React • Node.js • Web3</text>
+    </g>
+  </g>
+
+  <!-- Graphic Preview (Invoice Mockup) -->
+  <g transform="translate(240, 35)">
+    <rect width="130" height="110" rx="8" fill="#0d0d12" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1" />
+    <path d="M0,8 L130,8" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    <circle cx="12" cy="15" r="3" fill="#10B981" />
+    <line x1="20" y1="15" x2="60" y2="15" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round" />
+    
+    <text x="12" y="38" class="invoice-text">INV-2026 // EXP</text>
+    <text x="12" y="52" class="invoice-text">LIQUIDITY COLLATERAL</text>
+    
+    <line x1="12" y1="65" x2="118" y2="65" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    
+    <text x="12" y="82" class="invoice-text">TOTAL AMT</text>
+    <text x="12" y="96" class="invoice-val">$18,240.50</text>
+    
+    <g transform="translate(90, 75)">
+      <rect width="28" height="12" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+      <text x="14" y="9" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="6" fill="#10B981" font-weight="700" text-anchor="middle">ACTIVE</text>
+    </g>
+  </g>
+</svg>

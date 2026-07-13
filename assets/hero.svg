@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="280">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .text-title {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        fill: #ffffff;
+        letter-spacing: -0.03em;
+      }
+      
+      .text-gradient {
+        fill: url(#titleGradient);
+      }
+      
+      .text-subtitle {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        fill: #8E939E;
+        letter-spacing: -0.01em;
+        position: absolute;
+      }
+      
+      .text-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 13.5px;
+        fill: #696E79;
+        line-height: 1.5;
+      }
+      
+      .text-mono {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #00C9FF;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+      
+      .text-badge {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #34D399;
+      }
+
+      .btn-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11.5px;
+        font-weight: 600;
+        fill: #ffffff;
+        text-anchor: middle;
+      }
+
+      /* Sequential Typing Carousel Animations */
+      @keyframes type1 {
+        0%, 20% { opacity: 1; }
+        25%, 100% { opacity: 0; }
+      }
+      @keyframes type2 {
+        0%, 25% { opacity: 0; }
+        30%, 50% { opacity: 1; }
+        55%, 100% { opacity: 0; }
+      }
+      @keyframes type3 {
+        0%, 55% { opacity: 0; }
+        60%, 80% { opacity: 1; }
+        85%, 100% { opacity: 0; }
+      }
+      @keyframes type4 {
+        0%, 85% { opacity: 0; }
+        90%, 98% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .role-1 { animation: type1 12s infinite; }
+      .role-2 { animation: type2 12s infinite; }
+      .role-3 { animation: type3 12s infinite; }
+      .role-4 { animation: type4 12s infinite; }
+
+      /* Visual Art Animations */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(2deg); }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.2; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.08); }
+      }
+      
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .floating-art {
+        animation: float 6s ease-in-out infinite;
+        transform-origin: 640px 140px;
+      }
+
+      .pulse-glow {
+        animation: pulse 5s ease-in-out infinite;
+        transform-origin: 640px 140px;
+      }
+
+      .rotating-ring {
+        animation: rotate 25s linear infinite;
+        transform-origin: 640px 140px;
+      }
+
+      .status-pulse {
+        animation: status-glow 2s infinite;
+      }
+
+      @keyframes status-glow {
+        0% { r: 3.5px; opacity: 0.5; }
+        50% { r: 6.5px; opacity: 0.95; }
+        100% { r: 3.5px; opacity: 0.5; }
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF" />
+      <stop offset="100%" stop-color="#7F00FF" />
+    </linearGradient>
+
+    <linearGradient id="prismGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 201, 255, 0.6)" />
+      <stop offset="50%" stop-color="rgba(127, 0, 255, 0.2)" />
+      <stop offset="100%" stop-color="rgba(0, 201, 255, 0.6)" />
+    </linearGradient>
+
+    <radialGradient id="bgGlow" cx="80%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0, 201, 255, 0.15)" />
+      <stop offset="60%" stop-color="rgba(127, 0, 255, 0.03)" />
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+    </radialGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)" />
+      <stop offset="30%" stop-color="rgba(255, 255, 255, 0.03)" />
+      <stop offset="70%" stop-color="rgba(255, 255, 255, 0.02)" />
+      <stop offset="100%" stop-color="rgba(0, 201, 255, 0.18)" />
+    </linearGradient>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="800" height="280" rx="16" fill="#070709" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect width="800" height="280" rx="16" fill="url(#grid)" />
+  
+  <!-- Glow Accent -->
+  <circle cx="640" cy="140" r="160" fill="url(#bgGlow)" class="pulse-glow" />
+
+  <!-- Outer Border -->
+  <rect x="0.5" y="0.5" width="799" height="279" rx="15.5" fill="none" stroke="url(#borderGradient)" stroke-width="1" />
+
+  <!-- LEFT SIDE CONTENT -->
+  <g transform="translate(45, 0)">
+    <!-- Monotag -->
+    <text x="0" y="55" class="text-mono">01 // HELLO WORLD</text>
+
+    <!-- Title -->
+    <text x="0" y="95" class="text-title">
+      I'm <tspan class="text-gradient">Sharvan Kumar</tspan>
+    </text>
+
+    <!-- Carousel Typing Roles -->
+    <g>
+      <text x="0" y="130" class="text-subtitle role-1">Software Engineer &amp; Full-Stack Developer</text>
+      <text x="0" y="130" class="text-subtitle role-2">C++ &amp; DSA Enthusiast ⚡</text>
+      <text x="0" y="130" class="text-subtitle role-3">Machine Learning Explorer 🤖</text>
+      <text x="0" y="130" class="text-subtitle role-4">Hackathon Winner &amp; Creator 🏆</text>
+    </g>
+
+    <!-- Description -->
+    <text x="0" y="162" class="text-desc">Engineering secure backend systems and high-fidelity frontends.</text>
+    <text x="0" y="180" class="text-desc">Designing scalable applications with performance-focused architecture.</text>
+
+    <!-- Visual Action Buttons (Decorative in SVG - real buttons mapped directly below in HTML) -->
+    <g transform="translate(0, 205)">
+      <!-- Resume Visual Button -->
+      <g>
+        <rect width="80" height="28" rx="6" fill="rgba(0, 201, 255, 0.08)" stroke="rgba(0, 201, 255, 0.25)" stroke-width="1" />
+        <text x="40" y="18" class="btn-text">Resume</text>
+      </g>
+      
+      <!-- Portfolio Visual Button -->
+      <g transform="translate(90, 0)">
+        <rect width="85" height="28" rx="6" fill="rgba(127, 0, 255, 0.08)" stroke="rgba(127, 0, 255, 0.25)" stroke-width="1" />
+        <text x="42.5" y="18" class="btn-text">Portfolio</text>
+      </g>
+
+      <!-- Contact Visual Button -->
+      <g transform="translate(185, 0)">
+        <rect width="80" height="28" rx="6" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+        <text x="40" y="18" class="btn-text">Contact</text>
+      </g>
+
+      <!-- Status Indicator Pill -->
+      <g transform="translate(275, 1)">
+        <rect width="18" height="26" rx="9" fill="rgba(52, 211, 153, 0.06)" stroke="rgba(52, 211, 153, 0.15)" stroke-width="1" />
+        <circle cx="9" cy="13" r="3.5" fill="#34D399" />
+        <circle cx="9" cy="13" r="6" fill="none" stroke="#34D399" stroke-width="1.5" class="status-pulse" />
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE CONTENT (Abstract Vector Art) -->
+  <g class="floating-art">
+    <circle cx="640" cy="140" r="75" fill="none" stroke="rgba(0, 201, 255, 0.12)" stroke-width="1" stroke-dasharray="4 8" class="rotating-ring" />
+    <circle cx="640" cy="140" r="55" fill="none" stroke="rgba(127, 0, 255, 0.08)" stroke-width="1" />
+    
+    <!-- Central Glowing Core Mesh -->
+    <!-- Prism Top Face -->
+    <polygon points="640,85 690,120 640,155 590,120" fill="url(#prismGradient)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" style="mix-blend-mode: screen;" />
+    
+    <!-- Prism Left Face -->
+    <polygon points="590,120 640,155 640,205 590,170" fill="rgba(127, 0, 255, 0.25)" stroke="rgba(127, 0, 255, 0.4)" stroke-width="1" />
+    
+    <!-- Prism Right Face -->
+    <polygon points="640,155 690,120 690,170 640,205" fill="rgba(0, 201, 255, 0.3)" stroke="rgba(0, 201, 255, 0.4)" stroke-width="1" />
+
+    <!-- Isometric Glowing Lines -->
+    <line x1="640" y1="85" x2="640" y2="155" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" />
+    
+    <!-- Outer Accent Vectors -->
+    <line x1="640" y1="55" x2="640" y2="85" stroke="#7F00FF" stroke-width="1.5" stroke-dasharray="3 3" />
+    <circle cx="640" cy="55" r="3" fill="#7F00FF" />
+    
+    <line x1="715" y1="140" x2="690" y2="120" stroke="#00C9FF" stroke-width="1.5" stroke-dasharray="3 3" />
+    <circle cx="715" cy="140" r="3" fill="#00C9FF" />
+    
+    <line x1="565" y1="140" x2="590" y2="120" stroke="#00C9FF" stroke-width="1.5" stroke-dasharray="3 3" />
+    <circle cx="565" cy="140" r="3" fill="#00C9FF" />
+  </g>
+</svg>

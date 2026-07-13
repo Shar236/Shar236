@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 280" width="100%" height="280">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .text-title {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        fill: #ffffff;
+        letter-spacing: -0.02em;
+      }
+      
+      .text-subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        fill: #696E79;
+        line-height: 1.6;
+      }
+      
+      .text-mono {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        fill: #00C9FF; /* Cyan accent */
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+
+      .tag-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8.5px;
+        fill: #A5B4FC;
+        text-anchor: middle;
+        font-weight: 600;
+      }
+
+      .dashboard-header-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        fill: #525866;
+        font-weight: 600;
+      }
+
+      .table-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 9px;
+        fill: #ffffff;
+        font-weight: 600;
+      }
+
+      .table-mono {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        fill: #00C9FF;
+        font-weight: 700;
+      }
+
+      .badge-text-verified {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 7.5px;
+        fill: #10B981;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .badge-text-pending {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 7.5px;
+        fill: #F59E0B;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      /* Animations */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      
+      .browser-mock {
+        animation: float 5s ease-in-out infinite;
+      }
+    </style>
+
+    <radialGradient id="bgGlow" cx="80%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="rgba(0, 201, 255, 0.12)" />
+      <stop offset="60%" stop-color="rgba(127, 0, 255, 0.01)" />
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+    </radialGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)" />
+      <stop offset="50%" stop-color="rgba(255, 255, 255, 0.02)" />
+      <stop offset="100%" stop-color="rgba(0, 201, 255, 0.15)" />
+    </linearGradient>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255, 255, 255, 0.025)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="496" height="280" rx="16" fill="#070709" />
+  
+  <!-- Grid Overlay -->
+  <rect width="496" height="280" rx="16" fill="url(#grid)" />
+  
+  <!-- Glow Accent -->
+  <circle cx="400" cy="200" r="140" fill="url(#bgGlow)" />
+
+  <!-- Outer Border -->
+  <rect x="0.5" y="0.5" width="495" height="279" rx="15.5" fill="none" stroke="url(#borderGradient)" stroke-width="1" />
+
+  <!-- LEFT SIDE: Project Description -->
+  <g transform="translate(26, 0)">
+    <text x="0" y="42" class="text-mono">04 // FEATURED PRODUCT</text>
+    <text x="0" y="68" class="text-title">Jane-Trade</text>
+    
+    <!-- Multi-line description -->
+    <text x="0" y="95" class="text-subtitle">Blockchain invoice financing platform</text>
+    <text x="0" y="112" class="text-subtitle">helping MSMEs unlock working capital.</text>
+    <text x="0" y="129" class="text-subtitle">Integrates secure verification,</text>
+    <text x="0" y="146" class="text-subtitle">decentralized ledger and storage.</text>
+
+    <!-- Tags Row -->
+    <!-- Tag 1: React -->
+    <g transform="translate(0, 175)">
+      <rect width="54" height="20" rx="10" fill="rgba(0, 201, 255, 0.06)" stroke="rgba(0, 201, 255, 0.15)" stroke-width="1" />
+      <text x="27" y="13" class="tag-text">React</text>
+    </g>
+
+    <!-- Tag 2: Node.js -->
+    <g transform="translate(60, 175)">
+      <rect width="58" height="20" rx="10" fill="rgba(0, 201, 255, 0.06)" stroke="rgba(0, 201, 255, 0.15)" stroke-width="1" />
+      <text x="29" y="13" class="tag-text">Node.js</text>
+    </g>
+
+    <!-- Tag 3: Postgres -->
+    <g transform="translate(124, 175)">
+      <rect width="64" height="20" rx="10" fill="rgba(0, 201, 255, 0.06)" stroke="rgba(0, 201, 255, 0.15)" stroke-width="1" />
+      <text x="32" y="13" class="tag-text">Postgres</text>
+    </g>
+
+    <!-- Tag 4: Web3 -->
+    <g transform="translate(194, 175)">
+      <rect width="48" height="20" rx="10" fill="rgba(0, 201, 255, 0.06)" stroke="rgba(0, 201, 255, 0.15)" stroke-width="1" />
+      <text x="24" y="13" class="tag-text">Web3</text>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE: Browser Mockup Frame -->
+  <g transform="translate(265, 80)" class="browser-mock">
+    <!-- Window Outer frame -->
+    <rect width="205" height="155" rx="10" fill="#0C0C0F" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    
+    <!-- Title Bar -->
+    <rect width="205" height="24" rx="10" fill="#121216" />
+    <!-- Prevent rounded corners on bottom of title bar -->
+    <rect y="12" width="205" height="12" fill="#121216" />
+    <line x1="0" y1="24" x2="205" y2="24" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    
+    <!-- Dots -->
+    <circle cx="12" cy="12" r="3" fill="#EF4444" />
+    <circle cx="20" cy="12" r="3" fill="#F59E0B" />
+    <circle cx="28" cy="12" r="3" fill="#10B981" />
+
+    <!-- Simulated URL bar -->
+    <rect x="46" y="5" width="130" height="14" rx="7" fill="#070709" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    <circle cx="56" cy="12" r="2" fill="#6B7280" />
+    <line x1="62" y1="12" x2="135" y2="12" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Browser Body / Dashboard Interface -->
+    <g transform="translate(10, 36)">
+      <!-- Row 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="185" height="22" rx="4" fill="rgba(255, 255, 255, 0.015)" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+        <text x="8" y="14" class="table-text">INV-2026-01</text>
+        <text x="85" y="14" class="table-mono">$12,450</text>
+        
+        <!-- Status Badge (Verified) -->
+        <g transform="translate(135, 5)">
+          <rect width="42" height="12" rx="6" fill="rgba(16, 185, 129, 0.06)" stroke="rgba(16, 185, 129, 0.2)" stroke-width="1"/>
+          <text x="21" y="9" class="badge-text-verified">Verified</text>
+        </g>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 28)">
+        <rect width="185" height="22" rx="4" fill="rgba(255, 255, 255, 0.015)" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+        <text x="8" y="14" class="table-text">INV-2026-02</text>
+        <text x="85" y="14" class="table-mono">$8,900</text>
+        
+        <!-- Status Badge (Verified) -->
+        <g transform="translate(135, 5)">
+          <rect width="42" height="12" rx="6" fill="rgba(16, 185, 129, 0.06)" stroke="rgba(16, 185, 129, 0.2)" stroke-width="1"/>
+          <text x="21" y="9" class="badge-text-verified">Verified</text>
+        </g>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 56)">
+        <rect width="185" height="22" rx="4" fill="rgba(255, 255, 255, 0.015)" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+        <text x="8" y="14" class="table-text">INV-2026-03</text>
+        <text x="85" y="14" class="table-mono">$15,200</text>
+        
+        <!-- Status Badge (Pending) -->
+        <g transform="translate(135, 5)">
+          <rect width="42" height="12" rx="6" fill="rgba(245, 158, 11, 0.06)" stroke="rgba(245, 158, 11, 0.2)" stroke-width="1"/>
+          <text x="21" y="9" class="badge-text-pending">Pending</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Telemetry Label -->
+    <text x="195" y="143" class="dashboard-header-text" text-anchor="end">JANE-TRADE // TRANSACTION LEDGER</text>
+  </g>
+</svg>
