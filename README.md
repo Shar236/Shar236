@@ -77,22 +77,12 @@
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-jane.svg" width="100%" alt="Jane-Trade" />
       <br/>
-      <a href="https://github.com/Shar236/Jane-Trade" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/Jane-Trade" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/Jane-Trade" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/Jane-Trade" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-rahi.svg" width="100%" alt="RAHI Marketplace" />
       <br/>
-      <a href="https://github.com/Shar236/RAHI" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/RAHI" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/RAHI" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/RAHI" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
   </tr>
   <tr><td colspan="2"><br/></td></tr>
@@ -101,22 +91,12 @@
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-nft.svg" width="100%" alt="NFT Marketplace" />
       <br/>
-      <a href="https://github.com/Shar236/NFT-Marketplace" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/NFT-Marketplace" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/NFT-Marketplace" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/NFT-Marketplace" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-lendos.svg" width="100%" alt="LendOS" />
       <br/>
-      <a href="https://github.com/Shar236/LendOS" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/LendOS" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/LendOS" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/LendOS" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
   </tr>
   <tr><td colspan="2"><br/></td></tr>
@@ -125,22 +105,12 @@
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-disease.svg" width="100%" alt="Disease Prediction" />
       <br/>
-      <a href="https://github.com/Shar236/Disease-Prediction" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/Disease-Prediction" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/Disease-Prediction" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/Disease-Prediction" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
     <td width="50%" align="center" valign="top">
       <img src="./assets/project-copo.svg" width="100%" alt="CO-PO Calculator" />
       <br/>
-      <a href="https://github.com/Shar236/CO-PO_Attainment-Calculator" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" />
-      </a>
-      <a href="https://github.com/Shar236/CO-PO_Attainment-Calculator" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" />
-      </a>
+      <a href="https://github.com/Shar236/CO-PO_Attainment-Calculator" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&amp;logo=github&amp;logoColor=white" /></a> <a href="https://github.com/Shar236/CO-PO_Attainment-Calculator" target="_blank"><img src="https://img.shields.io/badge/Demo-00C9FF?style=flat-square&amp;logo=google-chrome&amp;logoColor=white" /></a>
     </td>
   </tr>
 </table>
